@@ -1,0 +1,74 @@
+.Contact_container {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: rgb(117, 108, 108);
+    padding: 5rem 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.Slider {
+    width: 100%;
+    height: 80vh;
+    background: url("../../assets//slider_golfClub.jpeg") no-repeat center;
+    background-attachment: absolute;
+    background-size: auto;
+    border-radius: 20px;
+}
+
+.contact_info {
+    margin: 8%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Contact_enquiries {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 640px;
+    justify-content: space-between;
+}
+
+.enquiries_heading {
+    text-align: center;
+}
+
+.enquiry_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.enquiry_content input {
+    width: 280px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.sbt {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.sbt input {
+    justify-items: center;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: limegreen;
+    border: 0;
+}
+
+.description input {
+    width: 100%;
+    height: 60px;
+    border-radius: 8px;
+}

@@ -1,0 +1,143 @@
+
+  :root{
+    --h3-font-size: 22px;
+    --h2-font-size: 26px;
+    --h1-font-size: 34px;
+    --h3-line-height:36px;
+    --h2-line-height: 26px;
+    --h1-line-height:40px;
+  }
+  .app__about {
+    padding: 5rem 0;
+  }
+.app__about h4{
+    font-weight: bold;
+  }
+  
+  .app__about  h3{
+    font-size: var(--h3-font-size);
+    line-height: var(--h3-line-height);
+  }
+  
+  .app__about  h2{
+    font-size: var(--h2-font-size);
+    line-height: var(--h2-line-height);
+    margin-bottom: 8px;
+    color: limegreen;
+  }
+  
+  .app__about  h1{
+    font-size: var(--h1-font-size);
+    line-height: var(--h1-line-height);
+    margin-bottom: 8px;
+  }
+  
+  .app__about  p{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: rgb(117, 108, 108);
+   
+  }
+  .app__about  header{
+    display: flex;
+    flex-direction: row;
+  }
+  .app__about  header,footer{
+    padding: 16px;
+    font-size: var(--h3-font-size);
+    
+  }
+  .app__about  header span{
+    flex-basis: 5%;
+    flex-grow: 1;
+  }
+  .app__about   nav{
+    flex-basis: 90%;
+    flex-grow: 2;
+    margin-left: auto;
+  }
+  
+  .app__about  nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .app__about  li{
+    list-style-type: none;
+  }
+  
+
+  .app__about  section{
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  .app__about  img{
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;    
+  }
+  .app__about  .carrousel{
+      position: relative;
+      top:0;
+      left:0;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .app__about  #carrousel-left{
+      position: absolute;
+      left:8px;
+      bottom: 45%;
+      cursor: pointer;
+      width: 30px;
+  }
+  .app__about   #carrousel-right{
+      position: absolute;
+      right:8px;
+      bottom: 45%;
+      cursor: pointer;
+      width: 30px;
+  }
+  .app__about svg {
+    color: white;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .app__about .carrousel-image{
+      display: none;
+    max-width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .app__about .about-us-section{
+    display: flex;
+    flex-direction: row;
+  }
+  .app__about  .about-us-section img{
+    width:  50%;
+  }
+  .app__about  .our-history h2, .strategic-plan h2{
+    text-align: center;
+  }
+  .app__about  .strategic-plan a{
+    text-align: center;
+    display: block;   
+  }
+  .app__about  .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .app__about  footer p{
+    text-align: center;
+  }
+  .app__about  a{
+    cursor: pointer;
+  }
+

@@ -1,0 +1,114 @@
+
+/* IMAGE SECTION */
+.gallery{
+    padding-right: 30px;
+    padding-left: 70px;
+    padding: 5rem 0 8rem 0;
+}
+
+.image-title{
+    border-bottom: 1px solid black;
+    
+}
+
+.gallery img{
+    border-radius: 5px;
+}
+
+/* TITLE */
+.image-subtitle, .gym-title, .restaurant-title{
+    margin-left: 50px;
+}
+
+/* GOLF COURSE */
+
+.image-title{
+    text-align: center;
+}
+
+.golf-course{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.golf-course .image{
+width: calc(100% / 6);
+padding: 10px;
+}
+
+.golf-course .image span{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.golf-course .image img{
+    width: 100%;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+}
+
+.golf-course .image:hover img{
+    transform: scale(1.1);
+}
+
+/* GYM COURSE */
+
+.gym{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+
+.gym .image{
+width: calc(100% / 6);
+padding: 10px;
+}
+
+.gym .image span{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.gym .image img{
+    width: 100%;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+}
+
+.gym .image:hover img{
+    transform: scale(1.1);
+}
+
+/* RESTAURANT GALLERY */
+
+.restaurant{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+
+.restaurant .image{
+width: calc(100% / 6);
+padding: 10px;
+}
+
+.restaurant .image span{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.restaurant .image img{
+    width: 100%;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+}
+
+.restaurant .image:hover img{
+    transform: scale(1.1);
+}

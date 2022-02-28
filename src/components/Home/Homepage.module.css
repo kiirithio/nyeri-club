@@ -1,0 +1,218 @@
+.main {
+    padding-top: 5.5rem;
+}
+.carousel{
+    width: 100%;
+}
+.slidescont{
+    margin: 0vh 2vw;
+    height: 400px;
+    position: relative;
+}
+.slideimg{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.slideimg h3{
+    position: absolute;
+    top: 25%;
+    z-index: 1;
+    right: 10%;
+    color: white;
+    font-size: 3em;
+}
+.linkleft{
+    position: absolute;
+    bottom: 10%;
+    left: 37%;
+    z-index: 1;
+    background-color: white;
+    color: black;
+    padding: 1.5vh 3vw;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.linkright{
+    position: absolute;
+    bottom: 10%;
+    right: 40%;
+    z-index: 1;
+    background-color: white;
+    color: black;
+    padding: 1.5vh 3vw;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.linkleft:hover {
+    background-color: limegreen;
+    color: white;
+}
+.linkright:hover {
+    background-color: limegreen;
+    color: white;
+}
+.contslide{
+    position: relative;
+    text-align: center;
+}
+.slideimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.prev, .next{
+    color: white;
+    padding: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    font-size: 4em;
+}
+.prev{
+    left: 0;
+    text-decoration: none;
+}
+.next{
+    right: 0;
+    text-decoration: none;
+}
+.description{
+    margin: 1vw 15vw;
+    background-image: url("../../assets/golflag.jpg");
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.descrip{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.descrip p{
+    margin-top: 10vh;
+    color: white;
+    font-size: 1.5em;
+}
+.descrip a{
+    margin-top: 30%;
+}
+.linkd{
+    background-color: white;
+    color: black;
+    padding: 1.5vh 3vw;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.text1 p{
+    padding: 2vh 2vw;
+    margin: 0vh 1vw;
+    font-size: 1.5em;
+}
+.carousel2{
+    margin: 3vh 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.medslidercont{
+    position: relative;
+    width: 45vw;
+    height: 350px;
+}
+.slideimg2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.hh3{
+    position: absolute;
+    top: 20%;
+    left: 28%;
+    z-index: 1;
+    font-size: 2em;
+    color: white;
+}
+.link3{
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+    color: white;
+    padding: 1.5vh 3vw;
+    border-radius: 5px;
+    z-index: 1;
+    font-size: 2em;
+}
+.slideimg2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.medthumbnail{
+    width: 45vw;
+    height: 350px;
+    position: relative;
+}
+.medthumbnail img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.medprev, .mednext{
+    color: white;
+    padding: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    font-size: 3em;
+}
+.medprev{
+    left: 0;
+    text-decoration: none;
+}
+.mednext{
+    right: 0;
+    text-decoration: none;
+    
+}
+.activities{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.smallthumbnail{
+    width: 30vw;
+    height: 40vh;
+    position: relative;
+}
+.smallthumbnail img{
+    height: 100%;
+    width: 100%;
+}
+.ps{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    z-index: 1;
+    color: white;
+    font-size: 1.2em;
+}
+.category{
+    position: absolute;
+    top: 25%;
+    left: 37%;
+    z-index: 1;
+    color: white;
+    font-size: 2em;
+}
+.googlemap{
+    margin: 1vh 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
